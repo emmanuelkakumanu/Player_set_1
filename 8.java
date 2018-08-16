@@ -8,7 +8,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-		String str=s.nextLine();int c=0;
+		String str=s.nextLine();
 		str=str.trim();
 		str=str.toLowerCase();
 		char ch[]=str.toCharArray();
