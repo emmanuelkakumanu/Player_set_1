@@ -10,6 +10,7 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		String str=s.nextLine();
 		str=str.trim();
+		str=str.toLowerCase();
 		char ch[]=str.toCharArray();
 		ch[0]=Character.toUpperCase(ch[0]);
 		for(int i=1;i<str.length();i++)
