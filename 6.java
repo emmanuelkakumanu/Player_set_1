@@ -1,4 +1,3 @@
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -12,7 +11,7 @@ class Ideone
 		String a;
         String b;
         char k;
-        int f=0;
+        int fl=0;
         char v;
         Scanner s = new Scanner(System.in);
         a = s.next();
@@ -31,14 +30,14 @@ class Ideone
             char t = p.get(k);
             if (p.containsKey(k)) {
                 if (!p.containsValue(v)) {
-                    System.out.println("False");
-                    f=1;break;
+                    System.out.println("no");
+                    fl=1;break;
                 }
             }
 
         }
-        if(f==0){
-            System.out.println("True");
+        if(fl==0){
+            System.out.println("yes");
             
         }
 	}
